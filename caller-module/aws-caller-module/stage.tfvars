@@ -1,0 +1,13 @@
+organization        = "intuitive"
+env                 = "stage"
+region              = "eu-west-1"
+cidr_block          = "192.168.0.0/16"
+subnet_tier1_prefix = "7"
+subnet_tier1_range  = "1"
+subnet_tier2_prefix = "5"
+subnet_tier2_range  = "2"
+subnet_tier3_prefix = "7"
+subnet_tier3_range  = "5"
+volume_type         = "gp2"
+ami_id              = "ami-0cc4e06e6e710cd94"
+additional_tags     = {}
